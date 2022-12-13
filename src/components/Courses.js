@@ -20,16 +20,32 @@ function Courses() {
 
     return (
         <>
+            {/* 
+        
             {courses.map((course, index) => {
                 return (
                     <Card key={index}>
                         <Card.Body>
-                            <Card.Title>{course.name}</Card.Title>
+                            <Card.Title>{"Student list"}</Card.Title>
                             <Modal coursName={course.name} />
                         </Card.Body>
                     </Card>
                 )
             })}
+ */}
+
+
+
+            <Card >
+                <Card.Body>
+                    {/* <Card.Title>{course.name}</Card.Title> */}
+                    <Card.Title>{"press"}</Card.Title>
+                    <Modal coursName={"Student list"} />
+                </Card.Body>
+            </Card>
+
+
+
         </>
 
     )

@@ -23,7 +23,7 @@ function Lobby() {
     return (
         <div className='outSide'>
             <h1 className='text'>
-                Choose code block
+                Choose a room with a student
             </h1>
             <Courses />
             <button onClick={() => handleLogout()}>logout</button>
