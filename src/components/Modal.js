@@ -67,7 +67,7 @@ function Student(props) {
     return (
         <>
             <Button variant="primary" onClick={handleShow}>
-                students list
+                press
             </Button>
 
             <Modal

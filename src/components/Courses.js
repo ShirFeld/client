@@ -39,7 +39,7 @@ function Courses() {
             <Card >
                 <Card.Body>
                     {/* <Card.Title>{course.name}</Card.Title> */}
-                    <Card.Title>{"press"}</Card.Title>
+                    <Card.Title>{"Students list"}</Card.Title>
                     <Modal coursName={"Student list"} />
                 </Card.Body>
             </Card>
