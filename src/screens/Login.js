@@ -23,20 +23,20 @@ function Login() {
     useEffect(() => {
         if (loading) {
             // if loading is true the user is not log in
-            console.log("hi")
+            // console.log("user is not log in")
             return;
         }
         else {
             const data = async () => {
                 let position = await getEmails(currentUserEmail);
-                console.log(currentUserEmail + " current user position")
+                // console.log(currentUserEmail + " current user position")
 
                 if (position === "Mentor") {
-                    console.log(" in if ")
+                    // console.log(" in if ")
                     navigate("/lobby");
                 }
                 else if (position === "Student") {
-                    console.log(" in else ")
+                    // console.log(" in else ")
                     navigate("/chatRoom");
                 }
             }
@@ -74,9 +74,8 @@ function Login() {
                         onChange={(e) => setPassword(e.target.value)}
                         placeholder="Password"
                     />
-
                 </div>
-                <div className="login__textBox">
+                <div>
                     <button
                         className="login__btn" onClick={() => logInWithEmailAndPassword(email, password)}>  Login  </button>
                     {/* className="login__btn" onClick={() => onLogin()}>  Login  </button> */}

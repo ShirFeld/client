@@ -78,7 +78,7 @@ export const getEmails = async (email) => {
         position.push(doc.data().position);
         // console.log(doc.data().position + " &&&&&&&&&&")
     });
-    console.log(position[0] + " &&&&&&&&&&")
+    // console.log(position[0] + " &&&&&&&&&&")
     return position[0];
 
 };
